@@ -485,7 +485,7 @@ footer,
     padding-top: 4px;
 }
 
-.assignment-name a {
+.assignment-name a, #walle-images a{
     display: inline-block;
     font-family: 'Rajdhani', sans-serif;
     color: #fff;
@@ -498,6 +498,15 @@ footer,
     border-radius: 8px;
     text-align: center;
     padding: 3px 12px 1px 12px;
+    transition: .6s;
+}
+
+.assignment-name a:hover, #walle-images a:hover {
+    background: rgba(255, 175, 117, 0.15);
+}
+
+#walle-images a{
+    margin: 10px 0;
 }
 
 .item-box {
@@ -543,6 +552,14 @@ footer,
 
 .t1-04 {
     grid-area: t1-04;
+}
+
+#walle-images {
+    height: 100%;
+}
+
+#walle-images img {
+    margin-bottom: 50px;
 }
 
 . #footer {
@@ -786,6 +803,11 @@ footer,
             't1-04'
         ;
         grid-gap: 20px;
+    }
+
+    .assignment-name h2 {
+        font-size: 1rem;
+        margin-right: 5px;
     }
 
     .item-box p {
