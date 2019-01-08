@@ -179,21 +179,21 @@ body {
 }
 
 .index-body {
-    background: linear-gradient(rgba(109, 131, 152, 0.35), rgb(78, 94, 109, .35), rgb(0, 0, 0, .35)), url(images/index-bg.jpg);
+    background: linear-gradient(rgba(109, 131, 152, 0.35), rgba(78, 94, 109, 0.35), rgba(0, 0, 0, 0.35)), url(images/index-bg.jpg);
     background-repeat: no-repeat;
     background-position: center 0%;
     background-attachment: fixed;
 }
 
 .profile-body {
-    background: linear-gradient(rgba(109, 131, 152, 0.35), rgb(78, 94, 109, .35), rgb(0, 0, 0, .35)), url(images/aboutme-bg.jpg);
+    background: linear-gradient(rgba(109, 131, 152, 0.35), rgba(78, 94, 109, 0.35), rgba(0, 0, 0, 0.35)), url(images/aboutme-bg.jpg);
     background-repeat: no-repeat;
     background-position: 10% 40%;
     background-attachment: fixed;
 }
 
 .portfolio-body {
-    background: linear-gradient(rgba(100, 124, 152, 0.35), rgb(26, 26, 27, .35)), url(images/portfolio-bg.png);
+    background: linear-gradient(rgba(100, 124, 152, 0.35), rgba(26, 26, 27, 0.35)), url(images/portfolio-bg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -554,15 +554,15 @@ footer,
     grid-area: t1-04;
 }
 
-#walle-images {
+#walle-images, #walle-images2 {
     height: 100%;
 }
 
-#walle-images img {
+#walle-images img, #walle-images2 img {
     margin-bottom: 50px;
 }
 
-. #footer {
+#footer {
     margin-top: -120px;
 }
 
@@ -704,15 +704,21 @@ footer,
 @media only screen and (max-width:415px) {
 
     .index-body {
-        background: linear-gradient(rgba(109, 131, 152, 0.35), rgb(78, 94, 109, .35), rgb(0, 0, 0, .35)), url(images/index-bg-mobile.png);
+        background: linear-gradient(rgba(109, 131, 152, 0.35), rgba(78, 94, 109, 0.35), rgba(1, 1, 1, 0.35)), url(images/index-bg-mobile.png);
         background-repeat: no-repeat;
         background-position: center 0%;
     }
 
     .profile-body {
-        background: linear-gradient(rgba(109, 131, 152, 0.35), rgb(78, 94, 109, .35), rgb(0, 0, 0, .35)), url(images/aboutme-bg.jpg);
+        background: linear-gradient(rgba(109, 131, 152, 0.35), rgba(78, 94, 109, 0.35), rgba(1, 1, 1, 0.35)), url(images/aboutme-bg.jpg);
         background-repeat: no-repeat;
         background-position: center 30%;
+    }
+
+    .portfolio-body {
+        background: linear-gradient(rgba(109, 131, 152, 0.35), rgba(78, 94, 109, 0.35), rgba(1, 1, 1, 0.35)), url(images/portfolio-bg.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 
     nav .logo {
@@ -786,7 +792,6 @@ footer,
     .profile-item-4 {
         font-size: 16px;
         line-height: 25px;
-        õ
     }
 
     .item-box {
