@@ -658,7 +658,7 @@ footer,
 
     .item-box p {
         font-size: 1.1rem;
-        font-weight: 300;
+        font-weight: 400;
         line-height: 25px;
         text-align: left;
     }
@@ -716,9 +716,12 @@ footer,
     }
 
     .portfolio-body {
-        background: linear-gradient(rgba(109, 131, 152, 0.35), rgba(78, 94, 109, 0.35), rgba(1, 1, 1, 0.35)), url(images/portfolio-mobile.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+        background: linear-gradient(rgba(109, 131, 152, 0.7), rgba(109, 131, 152, 0.7)), url(images/portfolio-bg.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
     }
 
     nav .logo {
@@ -817,7 +820,7 @@ footer,
 
     .item-box p {
         font-size: 1rem;
-        font-weight: 300;
+        font-weight: 400;
         line-height: 25px;
         text-align: left;
     }
