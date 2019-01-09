@@ -485,7 +485,8 @@ footer,
     padding-top: 4px;
 }
 
-.assignment-name a, #walle-images a{
+.assignment-name a,
+#walle-images a {
     display: inline-block;
     font-family: 'Rajdhani', sans-serif;
     color: #fff;
@@ -501,11 +502,12 @@ footer,
     transition: .6s;
 }
 
-.assignment-name a:hover, #walle-images a:hover {
+.assignment-name a:hover,
+#walle-images a:hover {
     background: rgba(255, 175, 117, 0.15);
 }
 
-#walle-images a{
+#walle-images a {
     margin: 10px 0;
 }
 
@@ -554,11 +556,13 @@ footer,
     grid-area: t1-04;
 }
 
-#walle-images, #walle-images2 {
+#walle-images,
+#walle-images2 {
     height: 100%;
 }
 
-#walle-images img, #walle-images2 img {
+#walle-images img,
+#walle-images2 img {
     margin-bottom: 50px;
 }
 
@@ -704,7 +708,7 @@ footer,
 @media only screen and (max-width:415px) {
 
     .index-body {
-        background: linear-gradient(rgba(109, 131, 152, 0.35), rgba(78, 94, 109, 0.35), rgba(1, 1, 1, 0.35)), url(images/index-bg-mobile.png);
+        background: linear-gradient(rgba(109, 131, 152, 0.35), rgba(78, 94, 109, 0.35), rgba(1, 1, 1, 0.01)), url(images/index-bg-mobile.png);
         background-repeat: no-repeat;
         background-position: center 0%;
     }
@@ -717,11 +721,11 @@ footer,
 
     .portfolio-body {
         background: linear-gradient(rgba(109, 131, 152, 0.7), rgba(109, 131, 152, 0.7)), url(images/portfolio-bg.jpg) no-repeat center center fixed;
-            -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100%;
     }
 
     nav .logo {
